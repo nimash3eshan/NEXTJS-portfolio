@@ -7,6 +7,7 @@ import { displayTrash } from './components/apps/trash';
 import { displayGedit } from './components/apps/gedit';
 import { displayAboutVivek } from './components/apps/vivek';
 import { displayTerminalCalc } from './components/apps/calc';
+import { displayMyWeb } from './components/apps/myweb';
 
 const apps = [
     {
@@ -28,8 +29,8 @@ const apps = [
         screen: displayTerminalCalc,
     },
     {
-        id: "about-vivek",
-        title: "About Vivek",
+        id: "about-me",
+        title: "About Nimash",
         icon: './themes/Yaru/system/user-home.png',
         disabled: false,
         favourite: true,
@@ -61,7 +62,7 @@ const apps = [
         disabled: false,
         favourite: true,
         desktop_shortcut: false,
-        screen: displaySpotify, // India Top 50 Playlist 😅
+        screen: displaySpotify, 
     },
     {
         id: "settings",
@@ -89,6 +90,15 @@ const apps = [
         favourite: false,
         desktop_shortcut: true,
         screen: displayGedit,
+    },
+    {
+        id: "myweb",
+        title: "My HTML Website",
+        icon: './themes/Yaru/apps/todoist.png',
+        disabled: false,
+        favourite: false,
+        desktop_shortcut: true,
+        screen: displayMyWeb,
     },
 ]
 
