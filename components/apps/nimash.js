@@ -73,9 +73,6 @@ export class AboutNimash extends Component {
                     <img className=" w-3 md:w-4" alt="vivek's resume" src="./themes/Yaru/status/download.svg" />
                     <span className=" ml-1 md:ml-2 text-gray-50 ">Resume</span>
                 </div>
-                <div className='my-0.5 w-28 md:w-full h-8 px-2 md:px-2.5 flex' >
-                    <iframe src="https://github.com/sponsors/vivek9patel/button" title="Sponsor vivek9patel" width={"100%"} height={"100%"} ></iframe>
-                </div>
             </>
         );
     }
@@ -234,6 +231,7 @@ function Skills() {
                     <span> And of course,</span> <img className=" inline ml-1" src="http://img.shields.io/badge/-Linux-0078D6?style=plastic&logo=linux&logoColor=ffffff" alt="vivek linux" /> <span>!</span>
                 </li>
             </ul>
+            <br></br>
         </>
     )
 }
@@ -242,93 +240,67 @@ function Projects() {
     const project_list = [
         {
             name: "UbuntuOS Portfolio",
-            date: "Apr 2021",
-            link: "https://github.com/vivek9patel/vivek9patel.github.io",
+            date: "July 2023",
+            link: "https://linux.nimash.dev",
             description: [
                 "Personal portfolio website of theme Ubuntu 20.04, made using NEXT.js & tailwind CSS",
             ],
             domains: ["javascript", "next.js", "tailwindcss"]
         },
         {
-            name: "Chrome Extension React Bolierplate",
-            date: "Dec 2021",
-            link: "https://github.com/vivek9patel/chrome-extension-react-boilerplate",
+            name: "QUIXI - Collaborative Money Expense Tracker",
+            date: "Dec 2022",
+            link: "https://github.com/wkmilanswanthra/Quixi",
             description: [
-                "A boilerplate code to build a chrome extension with react and webpack",
+                "This is a mobile application allowed users to add friends and create groups to manage shared expenses, allowing them to manually settle these expenses. I was responsible for admin panel & user profile & settings",
             ],
-            domains: ["javascript", "chrome-extension"]
+            domains: ["ReactNative", "NextJS", "NodeJS", "MongoDB"]
         },
         {
-            name: "CodeConnect",
-            date: "Nov 2021",
-            link: "https://github.com/vivek9patel/CodeConnect-frontend",
+            name: "COMBook - Accounting Application(Completed)",
+            date: "Sep 2021",
+            link: "https://combook.netlify.app",
             description: [
-                "A multi-language pair-programming platform with the features of video meeting and whiteboard. Built with React.js, Tailwind CSS, Chakra UI, Express & Socket.io.",
+                "COMBook is a web-based application which offers ledger reporting, trail balance recording, accounting book management, and financial statement preparation features for small to medium-sized businesses.",
             ],
-            domains: ["javascript", "tailwindcss"]
+            domains: ["Html","CSS","javascript","Firebase","tailwindcss"]
         },
         {
-            name: "Ad Free Spotify",
+            name: "Bitcoin Price Prediction System(Completed)",
             date: "Jun 2021",
-            link: "https://github.com/vivek9patel/ad-free-spotify",
+            link: "https://colab.research.google.com/drive/1UFQoUI66-nBiHh9A3oBRxhh6TjTF40CC?usp=sharing",
             description: [
-                "Chrome extension to automatically mute/unmute Spotify tab when Advertisement starts and ends!",
+                "This was developed to predict crypto prices using social sentiments",
             ],
-            domains: ["javascript", "chrome-extension"]
+            domains: ["Jupyter Notebooks", "Machine Learning (LSTM)"]
         },
         {
-            name: "economist.com Unlocked",
-            date: "Mar 2021",
-            link: "https://github.com/vivek9patel/economist.com-unlocked",
+            name: "Discord Developing ",
+            date: "2018 - Present",
+            link: "",
             description: [
-                "A chrome extension to read Paid Articles for Free & with no Ads, no subscription, no memberships!",
+                "I developed three community discord servers & created over 20+ bots including Music Bots, MEME Bots, Server moderation, Announcement, Games, Modmail Bots using Discord.py & Discord.JS",
             ],
-            domains: ["javascript", "chrome-extension"]
+            domains: ["Discord.py", "Discord.JS"]
         },
         {
-            name: "Flutter banking app",
-            date: "Jan 2021",
-            link: "https://github.com/vivek9patel/flutter-banking-app",
+            name: "NES Creation COD4 Game Server (Completed)",
+            date: "Apr 2023",
+            link: "https://erary.com/nesCOD4.html",
             description: [
-                "A Flutter & Firebase project for creating transactions between different Users and displaying the history of transactions done by all.",
+                "This is my own cod4 game server which has custom maps, sounds with daily active players.",
             ],
-            domains: ["flutter", "firestore", "dart", "firebase auth"]
+            domains: ["Digital Ocean", "GSC scripts"]
         },
         {
-            name: "CPU scheduling application",
-            date: "Dec 2020",
-            link: "https://github.com/vivek9patel/CPU-Scheduling-APP-React-Native",
+            name: "Automated Rubber Solution Mixer for Small Scaled Rubber Manufacturers (Completed)",
+            date: "First year hardware project",
+            link: "https://github.com/wkmilanswanthra/Rubber-Mixer-Machine",
             description: [
-                "React Native Application to visualize the CPU Scheduling algorithms with different Processes and Animations with gannt chart.",
+                "The process of making rubber sheets from collected latex involves manual measurement of ingredients, resulting in low accuracy and quality. Additionally, labor costs are high and output is low due to manual processing. To address these issues, an automated rubber solution mixer has been designed and developed specifically for small-scale rubber manufacturers.",
             ],
-            domains: ["react-native", "javascript"]
+            domains: ["C", "Atmel Studio", "Proteus", "Kicad"]
         },
-        {
-            name: "Meditech Healthcare WebApp",
-            date: "Nov 2020",
-            link: "https://github.com/vivek9patel/Meditech-Healthcare",
-            description: [
-                "Developed Web Application to predict and diagnose diseases from x-ray images.",
-            ],
-            domains: ["javascript", "html5", "sass", "firebase", "tensorflow"]
-        },
-        {
-            name: "Problem Recommendation System",
-            date: "Sep 2020",
-            link: "https://github.com/vivek9patel/Improve-Codeforces",
-            description: [
-                "Django web application to suggest practice problems from the areas in which the user struggles to get pass in code-forces.",
-            ],
-            domains: ["django", "python", "codeforces-api", "javascript"]
-        },
-        {
-            name: "Cleanliness Automation",
-            date: "Dec 2019",
-            link: "https://github.com/vivek9patel/CPU-Scheduling-APP-React-Native",
-            description: [
-                "Developed Web Applications to automate Garbage collection and extraction systems for SSIP hackathon",
-            ],
-        }
     ];
 
     const tag_colors = {
@@ -359,7 +331,6 @@ function Projects() {
                     <div className="bg-white absolute rounded-full p-0.5 md:p-1 top-0 transform -translate-y-1/2 right-full"></div>
                 </div>
             </div>
-            <iframe src="https://github.com/sponsors/vivek9patel/card" title="Sponsor vivek9patel" className='my-4 w-5/6 md:w-3/4' ></iframe>
 
             {
                 project_list.map((project, index) => {
@@ -405,6 +376,6 @@ function Projects() {
 }
 function Resume() {
     return (
-        <iframe className="h-full w-full" src="./files/Vivek-Patel-Resume.pdf" title="vivek patel resume" frameBorder="0"></iframe>
+        <iframe className="h-full w-full" src="./files/Nimash Sudusinghe_SE.pdf" title="vivek patel resume" frameBorder="0"></iframe>
     )
 }
