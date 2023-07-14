@@ -5,9 +5,10 @@ import { displaySettings } from './components/apps/settings';
 import { displayChrome } from './components/apps/chrome';
 import { displayTrash } from './components/apps/trash';
 import { displayGedit } from './components/apps/gedit';
-import { displayAboutVivek } from './components/apps/vivek';
+import { displayAboutVivek } from './components/apps/nimash';
 import { displayTerminalCalc } from './components/apps/calc';
 import { displayMyWeb } from './components/apps/myweb';
+import { displayCarromPool } from './components/apps/carrom';
 
 const apps = [
     {
@@ -93,12 +94,21 @@ const apps = [
     },
     {
         id: "myweb",
-        title: "My HTML Website",
-        icon: './themes/Yaru/apps/todoist.png',
+        title: "My Website",
+        icon: './themes/Yaru/apps/coding.png',
         disabled: false,
         favourite: false,
         desktop_shortcut: true,
         screen: displayMyWeb,
+    },
+    {
+        id: "CarromPool",
+        title: "Carrom Pool",
+        icon: './themes/Yaru/apps/carrom.png',
+        disabled: false,
+        favourite: false,
+        desktop_shortcut: true,
+        screen: displayCarromPool,
     },
 ]
 
